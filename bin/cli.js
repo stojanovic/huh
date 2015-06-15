@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var excuse = require('../');
+var excuse = require('../')
 
-console.log(excuse.get());
+console.log(excuse.get())
 
-process.exit(0);
+process.exit(0)

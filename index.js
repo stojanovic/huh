@@ -12,8 +12,6 @@ var list = fs.readFileSync(infile, 'utf8').split('\n').map(function (e) {
   return e.charAt(0) !== '#';
 }).sort();
 
-console.log(list[Math.floor(Math.random() * list.length)]);
-
 module.exports = {
   get: function get() {
     return list[Math.floor(Math.random() * list.length)];

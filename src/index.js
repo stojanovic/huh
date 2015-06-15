@@ -12,8 +12,6 @@ let list = fs
     .filter(e => e.charAt(0) !== '#')
     .sort()
 
-console.log(list[Math.floor(Math.random() * list.length)])
-
 module.exports = {
   get() {
     return list[Math.floor(Math.random() * list.length)]
