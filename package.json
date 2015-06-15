@@ -1,0 +1,27 @@
+{
+  "name": "huh",
+  "version": "1.0.0",
+  "description": "Random BOFH-style excuses",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src/index.js -o index.js",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "author": "Slobodan Stojanovic",
+  "keywords": [
+    "random",
+    "bofh",
+    "excuse",
+    "generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stojanovic/huh.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  }
+}
