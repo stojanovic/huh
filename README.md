@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/stojanovic/huh.svg)](https://travis-ci.org/stojanovic/huh)  [![npm version](https://badge.fury.io/js/huh.svg)](http://badge.fury.io/js/huh)
+
 # Huh
 Random excuse generator.
 
@@ -10,7 +12,7 @@ Module API is simple, use `excuse.get()` to get one random excuse or
 
 ```
 
-var excuse = require('excuses')
+var excuse = require('huh')
 
 excuse.get() // Returns 1 random excuse
 
@@ -22,7 +24,7 @@ excuse.getAll() // Returns an array with all excuses
 
 # List
 
-Basic list if boroved [here](http://pages.cs.wisc.edu/~ballard/bofh/).
+Basic list is taken from [here](http://pages.cs.wisc.edu/~ballard/bofh/).
 
 To add new excuses update `excuses.txt` file and send pull request.
 
