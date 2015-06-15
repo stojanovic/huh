@@ -25,6 +25,8 @@ excuse.getAll() // Returns an array with all excuses
 
 ```
 
+Or install module as global (`npm i huh -g`) and just run `huh` from terminal.
+
 # List
 
 Basic list is taken from [here](http://pages.cs.wisc.edu/~ballard/bofh/).
@@ -35,7 +37,7 @@ It would be cool to have excuses in more different languages.
 
 # Todo
 
-- [ ] - Add CLI support
+- [x] - Add CLI support
 - [ ] - Add Browser support
 - [ ] - Add multi-language support?
 
