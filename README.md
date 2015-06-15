@@ -16,7 +16,10 @@ var excuse = require('huh')
 
 excuse.get() // Returns 1 random excuse
 
-// ie. 'virus attack, luser responsible'
+// ie. 'Bad user karma.'
+// or 'Cache miss - please take better aim next time'
+// or 'Sand fleas eating the Internet cables'
+// or 'We are Microsoft.  What you are experiencing is not a problem; it is an undocumented feature.'
 
 excuse.getAll() // Returns an array with all excuses
 
