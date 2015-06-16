@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/stojanovic/huh.svg)](https://travis-ci.org/stojanovic/huh)  [![npm version](https://badge.fury.io/js/huh.svg)](http://badge.fury.io/js/huh)
 
 # Huh
-Random excuse generator.
-
-It returnes "The Bastard Operator From Hell"-style excuses.
+Random "The Bastard Operator From Hell"-style excuse generator.
 
 # Usage
+
+Install module from npm - `npm i huh`.
 
 Module API is simple, use `excuse.get()` to get one random excuse or
 `excuse.getAll()` to get an array with all of them.
