@@ -8,7 +8,7 @@
     "test": "tape test/*.js | tap-spec"
   },
   "bin": {
-    "huh": "bin/cli.js"
+    "huh": "bin/huh"
   },
   "author": "Slobodan Stojanovic",
   "keywords": [
