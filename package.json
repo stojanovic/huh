@@ -4,13 +4,12 @@
   "description": "Random BOFH-style excuses",
   "main": "index.js",
   "scripts": {
-    "compile": "babel src/index.js -o index.js",
     "test": "tape test/*.js | tap-spec"
   },
   "bin": {
     "huh": "bin/huh"
   },
-  "author": "Slobodan Stojanovic",
+  "author": "Slobodan Stojanović",
   "keywords": [
     "random",
     "bofh",
@@ -23,7 +22,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel": "^5.5.8",
     "eslint": "^3.11.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
