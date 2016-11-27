@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var excuse = require('../')
+const excuse = require('../')
 
 console.log(excuse.get())
 

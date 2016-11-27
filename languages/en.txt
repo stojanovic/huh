@@ -108,7 +108,7 @@ Filesystem not big enough for Jumbo Kernel Patch
 Firewall needs cooling
 Firmware update in the coffee machine
 First Saturday after first full moon in Winter
-Flat tire on station wagon with tapes.  ("Never underestimate the bandwidth of a station wagon full of tapes hurling down the highway" Andrew S. Tannenbaum) 
+Flat tire on station wagon with tapes.  ("Never underestimate the bandwidth of a station wagon full of tapes hurling down the highway" Andrew S. Tannenbaum)
 Floating point processor overflow
 Fluorescent lights are generating negative ions. If turning them off doesn't work, take them out and put tin foil on the ends.
 Forced to support NT servers; sysadmins quit.
@@ -130,7 +130,7 @@ High pressure system failure
 Hot Java has gone cold
 HTTPD Error 4004 : very old Intel cpu - insufficient processing power
 HTTPD Error 666 : BOFH was here
-I'd love to help you -- it's just that the Boss won't let me near the computer. 
+I'd love to help you -- it's just that the Boss won't let me near the computer.
 I'm not sure.  Try calling the Internet's head office -- it's in the book.
 I'm sorry a pentium won't do, you need an SGI to connect with us.
 Improperly oriented keyboard
@@ -202,7 +202,7 @@ Neutrino overload on the nameserver
 New guy cross-connected phone lines with ac power bus.
 New management
 No "any" key on keyboard
-non-redundant fan failure 
+non-redundant fan failure
 Not approved by the FCC
 Not enough interrupts
 Not enough memory, go get system upgrade
@@ -256,7 +256,7 @@ Radial Telemetry Infiltration
 Radiosity depletion
 Recursive traversal of loopback mount points
 Recursivity.  Call back if it happens again.
-Redundant ACLs. 
+Redundant ACLs.
 Reformatting Page. Wait...
 Repeated reboots of the system failed to solve problem
 Rhythmic variations in the voltage reaching the power supply.
@@ -327,7 +327,7 @@ TCP/IP UDP alarm threshold is set too low.
 Techtonic stress
 Telecommunications is downgrading.
 Telecommunications is downshifting.
-Telecommunications is upgrading. 
+Telecommunications is upgrading.
 telnet: Unable to connect to remote host: Connection refused
 Temporal anomaly
 Temporary routing anomaly
@@ -365,7 +365,7 @@ The MGs ran out of gas.
 The monitor is plugged into the serial port
 The monitor needs another box of pixels.
 The mouse escaped.
-The new frame relay network hasn't bedded down the software loop transmitter yet. 
+The new frame relay network hasn't bedded down the software loop transmitter yet.
 The POP server is out of Coke
 The printer thinks its a router.
 The real ttys became pseudo ttys and vice-versa.

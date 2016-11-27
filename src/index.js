@@ -1,22 +1,28 @@
 'use strict'
 
-const fs       = require('fs')
-const path     = require('path')
-const infile   = path.join(__dirname, '/excuses.txt')
+const fs = require('fs')
 
-let list = fs
-    .readFileSync(infile, 'utf8')
+function getListForLanguage (lang) {
+  if (!fs.existsSync(`./languages/${lang}.txt`)) throw new Error('Language you selected does not exists, please select the other one')
+
+  return fs
+    .readFileSync(`./languages/${lang}.txt`, 'utf8')
     .split('\n')
     .map(e => e.trim())
     .filter(e => e.length > 0)
     .filter(e => e.charAt(0) !== '#')
     .sort()
+}
 
 module.exports = {
-  get() {
+  get (lang) {
+    if (!lang) lang = 'en'
+    const list = getListForLanguage(lang)
     return list[Math.floor(Math.random() * list.length)]
   },
-  getAll() {
+  getAll (lang) {
+    if (!lang) lang = 'en'
+    const list = getListForLanguage(lang)
     return list
   }
 }

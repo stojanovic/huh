@@ -7,21 +7,24 @@ Random "The Bastard Operator From Hell"-style excuse generator.
 
 Install module from npm - `npm i huh`.
 
-Module API is simple, use `excuse.get()` to get one random excuse or
-`excuse.getAll()` to get an array with all of them.
+Module API is simple, use `excuse.get(lang)` to get one random excuse or
+`excuse.getAll(lang)` to get an array with all of them.
+
+Where `lang` is any ISO Alpha-2 2-letter country code for which .txt file exists in languages folder.
+Default language is english, if you select non-existing language error will be thrown.
 
 ```
 
-var excuse = require('huh')
+const excuse = require('huh')
 
-excuse.get() // Returns 1 random excuse
+excuse.get('en') // Returns 1 random excuse
 
 // ie. 'Bad user karma.'
 // or 'Cache miss - please take better aim next time'
 // or 'Sand fleas eating the Internet cables'
 // or 'We are Microsoft.  What you are experiencing is not a problem; it is an undocumented feature.'
 
-excuse.getAll() // Returns an array with all excuses
+excuse.getAll('en') // Returns an array with all excuses
 
 ```
 
@@ -31,16 +34,14 @@ Or install module as global (`npm i huh -g`) and just run `huh` from terminal.
 
 Basic list is taken from [here](http://pages.cs.wisc.edu/~ballard/bofh/).
 
-To add new excuses update `excuses.txt` file and send pull request.
-
-It would be cool to have excuses in more different languages.
+To add new excuses update `languages/xx.txt` where `xx` is the language you want to update or simply add a file for a new language and send pull request.
 
 # Todo
 
 - [x] - Add CLI support
+- [x] - Add multi-language support?
 - [ ] - Add Browser support
-- [ ] - Add multi-language support?
 
-# Licence
+# License
 
-MIT
+MIT -- see [LICENSE](LICENSE.md)
