@@ -3,7 +3,7 @@
 # Huh
 Random "The Bastard Operator From Hell"-style excuse generator.
 
-# Usage
+## Usage
 
 Install module from npm - `npm i huh`.
 
@@ -30,18 +30,22 @@ excuse.getAll('en') // Returns an array with all excuses
 
 Or install module as global (`npm i huh -g`) and just run `huh` from terminal.
 
-# List
+## List
 
 Basic list is taken from [here](http://pages.cs.wisc.edu/~ballard/bofh/).
 
 To add new excuses update `languages/xx.txt` where `xx` is the language you want to update or simply add a file for a new language and send pull request.
 
-# Todo
+## Todo
 
 - [x] - Add CLI support
 - [x] - Add multi-language support?
 - [ ] - Add Browser support
 
-# License
+## What's new?
+
+See [RELEASES](https://github.com/stojanovic/huh/releases)
+
+## License
 
 MIT -- see [LICENSE](LICENSE.md)
