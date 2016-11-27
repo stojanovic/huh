@@ -1,6 +1,6 @@
 {
   "name": "huh",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "Random BOFH-style excuses",
   "main": "index.js",
   "scripts": {
