@@ -1,12 +1,13 @@
 'use strict'
 
 const fs = require('fs')
+const path = require('path')
 
 function getListForLanguage (lang) {
-  if (!fs.existsSync(`./languages/${lang}.txt`)) throw new Error('Language you selected does not exists, please select the other one')
+  if (!fs.existsSync(path.join(__dirname, `../languages/${lang}.txt`))) throw new Error('Language you selected does not exists, please select the other one')
 
   return fs
-    .readFileSync(`./languages/${lang}.txt`, 'utf8')
+    .readFileSync(path.join(__dirname, `../languages/${lang}.txt`), 'utf8')
     .split('\n')
     .map(e => e.trim())
     .filter(e => e.length > 0)
@@ -16,12 +17,12 @@ function getListForLanguage (lang) {
 
 module.exports = {
   get (lang) {
-    if (!lang) lang = 'en'
+    lang = lang || 'en'
     const list = getListForLanguage(lang)
     return list[Math.floor(Math.random() * list.length)]
   },
   getAll (lang) {
-    if (!lang) lang = 'en'
+    lang = lang || 'en'
     const list = getListForLanguage(lang)
     return list
   }
